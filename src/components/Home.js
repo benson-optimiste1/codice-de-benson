@@ -33,7 +33,7 @@ export default function Home() {
     return (
         <section className='menu-items'>
             {!menuItems
-                // if no menu items, show button
+                // if no menu items, show loading
                 ? <button onClick={() => handleBtnClick()}>get data</button>
                 // otherwise show menu items
                 : menuItems.map(singleItem => {

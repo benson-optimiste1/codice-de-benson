@@ -15,7 +15,7 @@
     background-image: url(../public/images/700x700.webp);
     background-repeat: no-repeat;
     background-size:contain;
-    background-position: 0px -270px;
+    background-position: 0px -200px;
     background-color: #fff;
     width: 100%;
     max-width: 1024px;
@@ -25,6 +25,7 @@
     font-size: 20px;
     border-radius: 15px 50px;
     border: solid #ffaf31 5px;
+    
   }
   
   .hero {
@@ -39,7 +40,7 @@
   
   h1 {
     color: #fff;
-    line-height: 1;
+    line-height: 3;
     font-size: 70px;
     font-weight: 600;
     text-align: center;
